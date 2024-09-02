@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>커뮤니티 수정</title>
+</head>
+<body>
+<h1>커뮤니티 수정</h1>
+<form action="/community/<%= community.community_id %>" method="POST">
+    <label for="name">커뮤니티 이름:</label>
+    <input type="text" name="name" id="name" value="<%= community.name %>" required>
+    <br>
+    <label for="description">설명:</label>
+    <textarea name="description" id="description" required><%= community.description %></textarea>
+    <br>
+    <button type="submit">수정</button>
+</form>
+<a href="/community/<%= community.community_id %>">취소</a>
+</body>
+</html>

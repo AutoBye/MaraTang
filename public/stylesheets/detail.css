@@ -1,0 +1,119 @@
+/* detail.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa; /* 페이지 배경색 */
+}
+
+.navbar {
+    background-color: #343a40; /* 네비게이션 바 색상 */
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card h2 {
+    font-weight: 700;
+    color: #007bff; /* Bootstrap 기본 primary 색상 */
+}
+
+.card p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #343a40; /* 기본 텍스트 색상 */
+}
+
+.card a {
+    color: #007bff; /* 링크 색상 */
+    text-decoration: none;
+}
+
+.text-decoration-none{
+    color: #007bff; /* 링크 색상 */
+}
+
+.card a:hover {
+    text-decoration: underline;
+}
+
+.list-group-item {
+    border: none; /* 리스트 아이템의 테두리 제거 */
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background-color: #f1f1f1;
+}
+
+.list-group-item h5 {
+    margin-bottom: 10px;
+    color: #343a40;
+}
+
+.list-group-item img {
+    max-width: 100%;       /* 이미지를 카드 내부에 맞추기 */
+    height: auto;          /* 비율에 맞게 자동 조정 */
+    border-radius: 5px;    /* 모서리를 둥글게 */
+    margin-top: 10px;
+    z-index: 1;            /* 이미지가 다른 요소들보다 앞에 표시되도록 */
+    position: relative;    /* z-index가 적용되도록 position 속성 설정 */
+}
+
+#postlist {
+    color: #495057; /* 포스트 목록 제목 색상 */
+}
+
+/* "새 포스트 작성" 버튼 스타일 */
+.card .new-post-btn {
+    color: #fff; /* 버튼 텍스트 색상 */
+    background-color: #656e79; /* 기본 배경색 */
+    border-color: #444b56; /* 기본 경계색 */
+    text-decoration: none; /* 텍스트 장식 제거 */
+}
+
+.card .new-post-btn:hover {
+    color: #fff; /* 호버 시 텍스트 색상 유지 */
+    background-color: #444b56; /* 호버 시 배경색 */
+    border-color: #23252a; /* 호버 시 경계색 */
+}
+
+/* 포스트 제목 스타일 */
+.post-title {
+    color: #343a40; /* 포스트 제목 기본 텍스트 색상 */
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.post-title:hover {
+    color: #007bff; /* 호버 시 포스트 제목 색상 변경 */
+    text-decoration: underline;
+}
+
+/* 카드 안의 일반 링크 스타일, 포스트 제목과 새 포스트 버튼을 제외한 링크에 적용 */
+.card .card-link {
+    color: #007bff; /* 링크 색상 */
+    text-decoration: none;
+}
+
+.card .card-link:hover {
+    text-decoration: underline;
+}
+/* 포스트 제목 스타일 */
+.post-title {
+    color: #0056b3; /* 포스트 제목 기본 텍스트 색상 */
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.post-title:hover {
+    color: #15181a; /* 호버 시 포스트 제목 색상 변경 */
+    text-decoration: underline;
+}

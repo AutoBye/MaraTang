@@ -1,0 +1,11 @@
+td {
+    background-color: white;
+
+}
+
+h3 {
+    font-size: 4rem; /* 글씨 크기 조정 */
+    color: white; /* 글씨 색상 흰색 */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* 그림자 효과 */
+    font-family: 'Roboto',sans-serif;
+}

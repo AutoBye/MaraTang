@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="/stylesheets/style.css" />
+  <title>마라탕후루 - 지역 기반 커뮤니티 플랫폼</title>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-transparent fixed-top">
+  <div class="container">
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav mx-auto" id="menu">
+        <li class="nav-item">
+          <a class="nav-link" href="/index">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/Community">Community</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#services">Services</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+    <div id="user-info" class="align-items-center mt-4">
+      <span id="user-name" class="h5 text-white mt-1">Username</span>
+      <button id="logout-btn" class="btn btn-danger btn-sm">로그아웃</button>
+    </div>
+  </div>
+</nav>
+
+<div id="quote">
+  <span></span>
+  <span></span>
+</div>
+
+<div id="weather">
+  <span></span><br>
+  <span></span>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+<script src="/javascripts/quotes.js"></script>
+<script src="/javascripts/index.js"></script>
+<script src="/javascripts/background.js"></script>
+<script src="/javascripts/weather.js"></script>
+<script src="/javascripts/cityNames.js"></script>
+</body>
+</html>

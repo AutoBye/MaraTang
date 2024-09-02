@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>새 커뮤니티 생성</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+</head>
+<body>
+<h1>새 커뮤니티 생성</h1>
+<form action="/community" method="POST">
+    <label for="name">커뮤니티 이름:</label>
+    <input type="text" name="name" id="name" required>
+    <br>
+    <label for="description">설명:</label>
+    <textarea name="description" id="description" required></textarea>
+    <br>
+    <button type="submit">생성</button>
+</form>
+<a href="/community">목록으로 돌아가기</a>
+</body>
+<script src='/javascripts/background.js'></script>
+<script src='/javascripts/community.js'></script>
+</html>
